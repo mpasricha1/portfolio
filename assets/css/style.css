@@ -1,3 +1,6 @@
+ul{
+	list-style-type: none;
+}
 .container-fluid{
     padding-right:0;
     padding-left:0;
