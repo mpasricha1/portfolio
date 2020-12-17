@@ -2,7 +2,7 @@ ul{
 	list-style-type: none;
 }
 .navbar{
-	background-color: #484f4f;
+	background-color: #563f46;
 }
 #pageheader{
 	padding-top:25px;
@@ -53,5 +53,11 @@ ul{
 	position: relative;
 	bottom:200px;
 	left:25px;
+}
+#button1{
+	background-color: #563f46;
+}
+#button2{
+	background-color: #563f46;
 }
 
