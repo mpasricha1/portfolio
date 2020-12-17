@@ -1,3 +1,40 @@
 ul{
 	list-style-type: none;
 }
+#pageheader{
+	padding-top:25px;
+	padding-left:25px;
+}
+#abouttext{
+	padding-top: 20px;
+	padding-right: 125px;
+	padding-left: 125px;
+	padding-bottom: 20px;
+}
+.jumbotron{
+	padding-left: 100px;
+	vertical-align: middle;
+
+}
+#box1{
+	height:500px;
+	width:500px;
+	background-color: #3b3a30;
+	position: relative;
+	left:100px;
+}
+#box2{
+	height:400px;
+	width:400px;
+	background-color: #b2c2bf;
+	position: relative;
+	bottom:200px;
+}
+#box3{
+	height:350px;
+	width:350px;
+	background-color: #eaece5;
+	position: relative;
+	bottom:600px;
+	left:200px;
+}
