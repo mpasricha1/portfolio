@@ -1,6 +1,10 @@
 ul{
 	list-style-type: none;
 }
+img {
+	height:450px;
+	width:550px;
+}
 .navbar{
 	background-color: #563f46;
 }
