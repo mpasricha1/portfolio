@@ -5,14 +5,23 @@ img {
 	height:450px;
 	width:550px;
 }
-.navbar{
-	background-color: #563f46;
+form {
+	padding-left:25px;
 }
-#pageheader{
+.form-group{
+	padding-bottom: 10px;
+}
+.links{
+	padding-top:25px;
+}
+.header1{
 	padding-top:25px;
 	padding-left:25px;
 }
-#abouttext{
+.navbar{
+	background-color: #563f46;
+}
+.h1text{
 	padding-top: 20px;
 	padding-right: 125px;
 	padding-left: 25px;
