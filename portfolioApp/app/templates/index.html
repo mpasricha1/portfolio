@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block content %}
+	<br>
+	<main class="container-fluid">
+	 	<div class="row">
+	 		<div class="col-md-6">
+		 		<div class="jumbotron jumbotron-fluid">
+					<h1 class="display-4">Mark Pasricha</h1>
+				 	<p class="lead">Data Wizard, IT Professional, and Web Dev all in one</p>
+				  	<hr class="my-4">
+				  	<div class="row">
+				  		<div class="col-md-3">
+					  		<p class="lead">
+					    	<a class="btn btn-lg" href="{{ url_for('about') }}" role="button" id="button1">Learn more</a>
+					  		</p>
+						</div>
+						<div class="col-md-3">
+					  		<p class="lead">
+					    	<a class="btn btn-lg" href="{{ url_for('portfolio') }}" role="button">Projects</a>
+					  		</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6">
+				<div class="container-fluid" id="background">
+					<div id="box1"></div>
+					<div id="box2"></div>
+					<div id="box3"></div>
+					<!-- Replace image with professional photo -->
+					<div id="box4"><img src="static/images/profile.jpg" alt="My main photo"></div>
+				</div>
+			</div>
+	 	</div>
+	</main>
+{% endblock %}

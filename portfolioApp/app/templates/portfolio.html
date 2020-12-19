@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block content %}
+	<main class="container-fluid">
+	 	<div class="row"> 
+	 		<div class="col-md-12"> 
+	 			<h1 class="header1">Projects<h1>
+	 		</div>
+	 	</div>
+	 	<br>
+	 	<div class="row"> 
+	 		<div class="col-md-12">
+	 			<div class="card">
+	 				<div class="card-body"> 
+	 					<h5 class="card-title">Petfinder Machine Learning Project</h5>
+	 					<p>The idea behind this project was to help shelters determine how "adoptable" their pet was, in hopes to help promote less "adoptable" pets to be adopted. This project utilized a Deep Learning Neural Networks in order to predict scores for pets based on their data from Petfinder. Data was originally brought in from a Kaggle dataset. The web app also utilized PetFinders API in order to bring in new data to help train the model. A user can run data through the model in two different ways. Input fields where the user could enter the data manually. If the pet was already on PetFinder though, the user could enter the pets id and pull the data straight from PetFinders API in order to get the pets adoptability score.</p>
+	 					<a href="https://github.com/mpasricha1/Petfinder-Project">Github Link</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 		<div class="row"> 
+	 		<div class="col-md-12">
+	 			<div class="card">
+	 				<div class="card-body"> 
+	 					<h5 class="card-title">Happiness Survey Project</h5>
+	 					<p>The subject of this project was to attempt to determine which country a person would be happiest living in. A survey was created in order to rate a persons input against data from the World Happiness Report. The survey utilized a custome algorithm in order to rate the users input.</p>
+	 					<a href="https://github.com/mpasricha1/Project-2-Happiness">Github Link</a>
+	 				</div>
+	 			</div>
+	 		</div>
+	 	</div>
+	</main>
+{% endblock %}

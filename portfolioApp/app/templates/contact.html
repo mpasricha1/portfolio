@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block content %}
+	<main class="container-fluid">
+		<div class='row'> 
+	 		<div class="col-md-12"> 
+	 			<h1 class="header1">Contact Me</h1>
+	 		</div>
+	 	</div>
+	 	<div class="row"> 
+	 		<div class="col-md-12">
+	 			<p class="h1text">Check out my github and Linkedin below. Also feel free to send me an email if you would like to know more about me.</p>
+	 		</div>
+	 	</div>
+	 	<form id='contactdata' method="POST" action="{{ url_for('contact') }}">
+		 	<div class="form-row">
+		 		<div class="col-md-3">
+		 			<div class="form-group">
+		 				<label for="name">Name</label>
+		 				<input id='name' type="text" name="name" class="form-control" placeholder="Enter your first name"  required="required" data-error="First Name is required">
+		 			</div>
+		 		</div>
+		 		<div class="col-md-3">
+		 			<div class="form-group">
+			 			<label for="email">Email</label>
+			 			<input id='email' type="text" name="email" class="form-control" placeholder="Enter your email"  required="required" data-error="Email is required">
+			 		</div>
+		 		</div>
+		 	</div>
+		 	<div class="form-row">
+			 	<div class="col-md-6">
+			 		<div class="form-group">
+			 			<label for="subject">Subject</label>
+				 		<input id='subject' type="text" name="subject" class="form-control" placeholder="Enter Subject"  required="required" data-error="Subject is required">
+				 	</div>
+				 </div>
+			</div>
+		 	<div class="form-row">
+		 		<div class="col-md-12">
+		 			<div class="form-group">
+	    				<label for="message">Message</label>
+	    				<textarea class="form-control" id="message" rows="3"></textarea>
+	  				</div>
+				</div>
+	  		</div>
+	  		<div class="form-row">
+	  			<div class="col-md-3">
+	  				<button type="submit" class="btn btn-primary">Send Email</button>
+	  			</div>
+	  		</div>	
+	  	</form>
+	  	<section class='links'>
+		  	<div class="row">
+		  		<div class="col-md-6">
+		  			<h3>Links</h3>
+		  		</div>
+		  	</div>
+		  	<div class="row">
+		  		<div class="col-md-3">
+		  			<a class="btn btn-lg" href="https://github.com/mpasricha1" role="button">Github</a>
+		  		</div>
+		  		<div class="col-md-3">
+		  			<a class="btn btn-lg" href="https://linkedin.com/in/mark-pasricha-285678104" role="button">Linkedin</a>
+		  		</div>
+		  	</div>
+		  </section>
+	</main>
+{% endblock %}
