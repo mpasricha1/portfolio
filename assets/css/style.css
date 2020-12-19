@@ -15,7 +15,7 @@ img {
 #abouttext{
 	padding-top: 20px;
 	padding-right: 125px;
-	padding-left: 125px;
+	padding-left: 25px;
 	padding-bottom: 20px;
 }
 .jumbotron{
@@ -24,7 +24,7 @@ img {
 
 }
 #background{
-	padding-top:50px;
+	padding-top:100px;
 	padding-bottom: -500px;
 }
 #box1{
@@ -58,10 +58,8 @@ img {
 	bottom:200px;
 	left:25px;
 }
-#button1{
-	background-color: #563f46;
-}
-#button2{
-	background-color: #563f46;
+#button1:focus{
+	box-shadow: : #563f46;
 }
 
+}
